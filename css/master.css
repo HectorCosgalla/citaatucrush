@@ -11,12 +11,22 @@ body{
     font-family: 'EB Garamond', serif;
 }
 
-.buttons{
-    font-family: 'EB Garamond', serif;
+.box{
+    background-color: #d3d3d3;
+    margin: 20% 25%;
+    padding: 5% 0;
 }
 
 .background{
     background-color: #e6e6e6;
+}
+
+.question_div{
+    padding: 0 25%;
+}
+
+.buttons{
+    font-family: 'EB Garamond', serif;
 }
 
 #crush_background{
@@ -24,6 +34,11 @@ body{
     
 }
 
+#box_crush{
+    background-color: hsl(356, 80%, 75%)
+}
+
 #question_crush{
     font-style: italic;
+    text-align: center;
 }
