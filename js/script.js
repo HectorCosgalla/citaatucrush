@@ -8,7 +8,7 @@ function ChangeQuestion(x) {
     }
     switch(x){
         case 1:
-            document.getElementById("question_crush").innerHTML = "¡Sabia que aceptarias!";
+            document.getElementById("question_crush").innerHTML = "¡Sabia que aceptarias! &#128512;";
             document.getElementById("return_button").style.display = "block";
             break;
         default:
