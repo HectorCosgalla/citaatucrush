@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
 
-html{
-    margin: 0;
-    padding: 0;
-}
+
 
 body{
-    margin: 0;
-    padding: 0;
     font-family: 'EB Garamond', serif;
 }
 
 .box{
     background-color: #d3d3d3;
-    margin: 20% 25%;
-    padding: 5% 0;
+    margin: 0 25%;
+    padding: 5% 5%;
+    border-radius: 25%;
+    box-shadow: 2px 3px #655560;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    left: 0%;
 }
 
 .background{
@@ -26,12 +27,28 @@ body{
 }
 
 .buttons{
+    width: 20%;
     font-family: 'EB Garamond', serif;
+    background-color: #588B8B;
+    border-radius:25%;
+    border-style: none;
 }
+
+.buttons:hover{
+    box-shadow: 2px 3px #655560;
+    transition: all .3s ease-out;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='25' height='30' viewport='0 0 100 100' style='fill:black;font-size:15px;'><text y='50%'>❤️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.button_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 
 #crush_background{
     background-color: pink;
-    
 }
 
 #box_crush{
@@ -41,4 +58,5 @@ body{
 #question_crush{
     font-style: italic;
     text-align: center;
+    font-size: 1.2rem;
 }
