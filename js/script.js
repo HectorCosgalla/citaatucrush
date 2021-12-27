@@ -1,10 +1,15 @@
 let winWidth = (Math.floor(window.innerWidth/2));
 let winHeight = (Math.floor(window.innerHeight/2));
 
-function ChangedQuestion(x) {
+function ChangeQuestion(x) {
+    let buttons = document.getElementsByClassName("buttons")
+    for(let i in buttons){
+        buttons[i].hidden = true;
+    }
     switch(x){
         case 1:
             document.getElementById("question_crush").innerHTML = "¡Sabia que aceptarias!";
+            document.getElementById("return_button").style.display = "block";
             break;
         default:
             document.getElementById("question_crush").innerHTML = "DAFUQ youdidbruh?";

@@ -50,6 +50,11 @@ body{
     background-color: pink;
 }
 
+#return_button{
+    max-height: 25px;
+    display: none;
+}
+
 #box_crush{
     box-shadow: 2px 3px #655560;
     background-color: hsl(356, 80%, 75%)

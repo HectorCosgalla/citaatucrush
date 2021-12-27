@@ -11,13 +11,14 @@
     <body class="background" id="crush_background">
         <script src="js/script.js"></script>
         <main>
+            <img src="img/return.png" id="return_button" onClick="document.location.reload(true)">
             <img src="/img/heart.png" alt="heart" class="heart" id="heart_left">
             <div class="box" id="box_crush">
                 <div class="question_div">
                     <h1 id="question_crush">¿Te gustaria salir conmigo?</h1>
                 </div>
                 <div class="button_div">
-                    <button class="buttons button_crush" id="button_si" onclick="ChangedQuestion(1)">Si</button>
+                    <button class="buttons button_crush" id="button_si" onclick="ChangeQuestion(1)">Si</button>
                     <button class="buttons button_crush" id="button_no" onmouseover="moveButton()">No</button>
                 </div>
             </div>
