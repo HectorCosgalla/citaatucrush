@@ -37,7 +37,7 @@ body{
 
 .button_crush{
     font-family: 'EB Garamond', serif;
-    background-color: #39e7e7;
+    background-color: #588B8B;
 }
 
 .button_crush:hover{
@@ -47,7 +47,7 @@ body{
 }
 
 #crush_background{
-    background-image: url("/img/heart.gif");
+    background-color: pink;
 }
 
 #return_button{

@@ -1,5 +1,10 @@
-let winWidth = (Math.floor(window.innerWidth/2));
-let winHeight = (Math.floor(window.innerHeight/2));
+let buttonWidth = document.getElementById("button_no").clientWidth;
+let buttonHeight = document.getElementById("button_no").clientHeight;
+let winWidth = (Math.floor(window.innerWidth/2))-buttonWidth;
+let winHeight = (Math.floor(window.innerHeight/3))-buttonHeight;
+
+console.log(winHeight);
+console.log(winWidth);
 
 function ChangeQuestion(x) {
     let buttons = document.getElementsByClassName("buttons")
